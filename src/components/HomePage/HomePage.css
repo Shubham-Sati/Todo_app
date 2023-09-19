@@ -1,0 +1,154 @@
+/* .homepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage_body_input{
+    display: flex;
+    gap: 10px;
+}
+
+.list{
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.list-item{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.list-item > button{
+    color: red;
+} */
+
+
+.mainDiv{
+    min-height: 100vh;
+    background: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.title > h2{
+    color: white;
+}
+
+.addItems{
+    width: 300px;
+    display: flex;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+
+.addItems > input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.addItems{
+    transition: all ease-in 0.3s;
+}
+
+.addIcon:hover{
+    cursor: pointer;
+    color: green;
+    scale: 1.2;
+}
+
+.showItems{
+    width: 300px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.item:hover{
+    background: rgb(138, 203, 224);
+}
+
+.itemName{
+    margin: 0;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.editIcon{
+    transition: all ease-in 0.5s;
+    color: rgb(97, 147, 22);
+}
+
+.editIcon:hover{
+    cursor: pointer;
+    color: goldenrod;
+    scale: 0.9;
+}
+
+.trashIcon{
+    transition: all ease-in 0.5s;
+    color: brown;
+}
+
+.trashIcon:hover{
+    cursor: pointer;
+    color: red;
+    scale: 0.9;
+}
+
+.clearAll{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.clearAll > button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    font-size: 14px;
+    transition: all ease-in 0.3s;
+}
+
+.clearAll > button:hover{
+    cursor: pointer;
+    background: red;
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.noTasks > p{
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
